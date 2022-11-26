@@ -17,10 +17,10 @@ function Products() {
     <div className="grid " >
       {products.map((product) => {
         return (
-          <div className="grid-tems" key={uuidv4()}>
+          <div className="grid_items" key={uuidv4()}>
             <Item
               
-              title={product.title}
+              title={product.title.substring(0, 32)}
               price={product.price}
               image={product.image}
             />

@@ -1,6 +1,6 @@
 .item_card{
     margin: 5px;
-    /* height: 500px; */
+    height: 300px;
     width: 150px;
     display: flex;
     flex-wrap: wrap;

@@ -2,7 +2,12 @@
    
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    /* display: grid;
-   align-content: center;
- */
+   grid-template-columns:  auto auto auto auto auto auto; */
+   
+
+}
+.grid_items{
+margin: 25px;
 }
