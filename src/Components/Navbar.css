@@ -1,0 +1,27 @@
+.Navbar{
+    height: 10vh;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site_logo{
+
+    width: 50%;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+.Navbar_items ul{
+    display: flex;
+
+}
+.Navbar_items li {
+    font-size: 20px;
+    margin: 5px;
+    list-style-type: none;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    
+}

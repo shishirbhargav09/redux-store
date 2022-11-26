@@ -1,0 +1,21 @@
+.item_card{
+    margin: 5px;
+    /* height: 500px; */
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item_card img{
+    height: 100px;
+}
+.item_card .title{
+    text-align: center;
+}
+.item_card button{
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(71, 25, 113);
+    color: aliceblue;
+}
