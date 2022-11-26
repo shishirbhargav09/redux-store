@@ -1,7 +1,7 @@
 .item_card{
     margin: 5px;
     height: 300px;
-    width: 130px;
+    width: 110px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
