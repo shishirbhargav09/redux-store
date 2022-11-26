@@ -20,7 +20,7 @@ function Products() {
           <div className="grid_items" key={uuidv4()}>
             <Item
               
-              title={product.title.substring(0, 32)}
+              title={product.title.substring(0, 20)}
               price={product.price}
               image={product.image}
             />
